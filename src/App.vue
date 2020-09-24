@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div>
-      <el-button>el-button</el-button>
+      <!-- <el-button>el-button</el-button> -->
+      <router>home</router>
       <router-view></router-view>
     </div>
 
@@ -9,12 +10,12 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import router from './components/Router.vue'
 
 export default {
   name: 'app',
   components: {
-
+    router
   }
 }
 </script>
